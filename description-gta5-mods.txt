@@ -1,0 +1,26 @@
+# visualv-darker-nights
+VisualV Darker Nights mods for Grand Theft Auto V | v1.70.1 | [gta5-mods.com](https://www.gta5-mods.com/misc/less-darker-nights)
+
+Features:
++ Makes beautiful dark nights based on <a href="https://www.gta5-mods.com/misc/visualv">VisualV</a> and <a href="https://www.lcpdfr.com/downloads/gta5mods/datafile/40491-darker-nights/">Darker Nights</a>
++ Wide range of darker settings (-40% to 80%) between VisualV and Darker Nights.
++ Tested on GTA V 1.70.1 (except for the brighter versions).
+
+Installation:
+1. Always make backup first!
+2. Download <a href="https://www.gta5-mods.com/misc/visualv">VisualV</a>.
+3. Extract VisualV.oiv separately (NOT install by OpenIV) and copy their timecycle .xml files in update/update.rpf/common/data/timecycles to mods/update/update.rpf/common/data/timecycles.
+____+ This is because we use VisualV as a base, and certain weather are not modified by Darker Nights.
+3. Drop all (10 .xml) files located in <this mod>/composed/<your-choice>% into mods/update/update.rpf/common/data/timecycles.
+____+ Darker Nights modified these files, but I have toned down the darkness.
+____+ Recommended settings: 80% darker-nights - 20% visualv.
+
+Uninstallation: (Reverting to vanilla values)
+1. Download <a href="https://www.gta5-mods.com/misc/visualv">VisualV</a>.
+2. Extract Original files.oiv separately (NOT install by OpenIV) and copy their timecycle .xml files in update/update.rpf/common/data/timecycles to mods/update/update.rpf/common/data/timecycles.
+
+Advanced customization: Please visit <a href="https://github.com/votrinhan88/visualv-darker-nights">GitHub</a>
+
+Disclaimer:
++ This is a toned-down version of Darker Nights 1.4 by Gelse16 combined with VisualV by _CP_ & robi29. Most credits go to them. I only write the Python codes to compose interpolated values.
++ I am not able to assist with advanced modders. But the code is clean and easy-to-follow, please try to figure it out yourself.
