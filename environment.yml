@@ -1,0 +1,9 @@
+name: darker-nights
+channels:
+  - defaults
+dependencies:
+  - pip
+  - python=3.12
+  - pip:
+      - numpy==2.2.1
+      - pandas==2.2.3
